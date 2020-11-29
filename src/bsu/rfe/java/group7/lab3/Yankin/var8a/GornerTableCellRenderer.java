@@ -1,5 +1,6 @@
 package bsu.rfe.java.group7.lab3.Yankin.var8a;
 
+
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.FlowLayout;
@@ -60,9 +61,7 @@ public class GornerTableCellRenderer implements TableCellRenderer {
 // значение иголки совпадает со значением ячейки таблицы -
 // окрасить задний фон панели в красный цвет
             panel.setBackground(Color.RED);
-        } else if (col==1 && isCoincideFractionalAndIntegerPartsOfNumber(formattedType)) {
-            panel.setBackground(Color.GREEN);
-        } else {
+        }  else {
 // Иначе - в обычный белый
             panel.setBackground(Color.WHITE);
         }
